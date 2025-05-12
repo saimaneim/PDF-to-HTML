@@ -67,7 +67,9 @@
         overflow: hidden;
     }
 
-    section, footer, header {
+    section,
+    footer,
+    header {
         width: 100%;
         max-width: 600px;
         margin: 0 auto;
@@ -80,7 +82,7 @@
         align-items: center;
         width: 100%;
         max-width: 900px;
-        padding: 70px 85px;
+        padding: 40px 30px;
         margin: 0 auto;
     }
 
@@ -384,11 +386,13 @@
     }
 
     .cuadrado {
-        text-align: left;
-        line-height: 25px;
-        margin: 20px auto 10px auto;
-        padding-left: 0;
-        margin-left: -20px;
+        text-align: center;
+        width: 100%;
+        max-width: 540px;
+        margin: 20px auto;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
         font-size: 17px;
         font-weight: 500;
         text-shadow: 0 0 0.01px #544534;
@@ -399,10 +403,11 @@
 
     .linea {
         display: block;
+        text-align: center;
         white-space: nowrap;
         max-width: 100%;
         overflow: hidden;
-        text-overflow: ellipsis;
+        margin: 0 auto;
     }
 
     .linea a {
@@ -442,7 +447,7 @@
     }
 
     /* Asegurarse que las imágenes principales sean responsivas pero mantengan su altura */
-    .palmas-img, 
+    .palmas-img,
     img:not(.header-icon):not(.footer-icon) {
         width: 100%;
         max-width: 600px;
@@ -452,11 +457,12 @@
     }
 
     @media (max-width: 768px) {
+
         .palmas-img,
         img:not(.header-icon):not(.footer-icon) {
             height: 250px;
         }
-        
+
         .header-icon {
             width: 70%;
             height: auto;
@@ -468,9 +474,13 @@
         .container {
             width: 100%;
         }
-        
+
         section {
-            padding: 40px 20px;
+            padding: 30px 15px;
+        }
+
+        .event-section .linea {
+            font-size: 14px;
         }
     }
 </style>
@@ -479,7 +489,8 @@
 <body>
     <div class="container">
         <header>
-       <img src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/Costa%20Palmas/assets/svg/header-icon.svg" alt="Header Icon" class="header-icon">
+            <img src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/Costa%20Palmas/assets/svg/header-icon.svg"
+                alt="Header Icon" class="header-icon">
         </header>
 
         <img src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/Costa%20Palmas/assets/imgs/people.jpg"
@@ -581,7 +592,8 @@
                     COSTAPALMAS.COM
                 </a>
                 <br>
-                <img src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/Costa%20Palmas/assets/svg/footer-icon.svg" alt="Costa Palmas Icon" class="footer-icon">
+                <img src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/Costa%20Palmas/assets/svg/footer-icon.svg"
+                    alt="Costa Palmas Icon" class="footer-icon">
             </span>
         </footer>
     </div>
