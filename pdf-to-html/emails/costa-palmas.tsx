@@ -9,14 +9,14 @@ import {
 	Img,
 	Button,
 	Tailwind,
-	Font
+	Font,
 } from "@react-email/components";
 
 export default function CostapalmasEmail() {
 	// Estilos comunes extraídos para evitar repetición
 	const textCommonStyles =
 		"text-left p-0 m-0 text-[17px] text-[#544534] font-['Basis_Grotesque_Pro_Regular',_Arial,_sans-serif]";
-    
+
 	return (
 		<Html lang="es">
 			<Head>
@@ -25,9 +25,19 @@ export default function CostapalmasEmail() {
 				<meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
 			</Head>
 			<Tailwind>
-				<Body className="bg-white text-center font-sans p-0 m-0 mx-auto" style={{ width: '600px', WebkitTextSizeAdjust: '100%', textSizeAdjust: '100%' }}>
-					<Container style={{ padding: 0, width: '600px', minWidth: '600px' }}>
-						<Section className="bg-[url('https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/header.png')] bg-cover bg-center h-[296px] py-10" style={{ width: '600px' }}>
+				<Body
+					className="bg-white text-center font-sans p-0 m-0 mx-auto"
+					style={{
+						width: "600px",
+						WebkitTextSizeAdjust: "100%",
+						textSizeAdjust: "100%",
+					}}
+				>
+					<Container style={{ padding: 0, width: "600px", minWidth: "600px" }}>
+						<Section
+							className="bg-[url('https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/header.png')] bg-cover bg-center h-[296px] py-10"
+							style={{ width: "600px" }}
+						>
 							<Img
 								src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/header-icon.svg"
 								alt="Header Icon"
@@ -40,17 +50,17 @@ export default function CostapalmasEmail() {
 							alt="people"
 							className="h-[435px] block object-cover"
 							width="600"
-							style={{ width: '600px' }}
+							style={{ width: "600px" }}
 						/>
 
-						<Section className="bg-[#ede9df] py-10" style={{ width: '600px' }}>
+						<Section className="bg-[#ede9df] py-10" style={{ width: "600px" }}>
 							{/* title-1 */}
 							<Img
 								src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/title_1.png"
 								alt="title_1"
 								className="py-10 mx-auto"
 								width="600"
-								style={{ width: '600px' }}
+								style={{ width: "600px" }}
 							/>
 
 							<div className="mb-4 px-20 mx-auto space-y-0 leading-tight text-left">
@@ -116,12 +126,13 @@ export default function CostapalmasEmail() {
 								</Text>
 							</div>
 
-							<Button
-								href="https://costapalmasmemories.pic-time.com/-costapalmasindallas1"
-								className="py-[10px] px-5 rounded-none w-[280px] h-[45px] bg-[#c1774d] no-underline text-white font-['Prelom_Regular',_Arial,_sans-serif] text-[1.2rem] text-center leading-none mt-[50px] mb-0 mx-auto block"
-							>
-								CLICK HERE FOR EVENT PHOTOS
-							</Button>
+							<Link href="https://costapalmasmemories.pic-time.com/-costapalmasindallas1">
+								<Img
+									src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/button.png"
+									className="mx-auto"
+									alt="CLICK HERE FOR EVENT PHOTOS"
+								/>
+							</Link>
 						</Section>
 						{/* family */}
 						<Img
