@@ -68,9 +68,7 @@ export default function CostapalmasEmail() {
 							<Img
 								src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/title_1.png"
 								alt="title_1"
-								className="py-10 mx-auto"
-								width="600"
-								style={{ width: "600px" }}
+								className="py-10 mx-auto w-[260px]"
 							/>
 
 							<div className="mb-4 mx-auto space-y-0 leading-tight text-left">
@@ -157,7 +155,7 @@ export default function CostapalmasEmail() {
 							<Img
 								src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/title_2.png"
 								alt="title_2"
-								className="pb-3 pt-16 mx-auto w-[600px] max-w-[600px] mobile-content"
+								className="pb-3 pt-16 mx-auto w-[430px]"
 							/>
 
 							<div className="py-14 mx-auto space-y-0 leading-tight">
