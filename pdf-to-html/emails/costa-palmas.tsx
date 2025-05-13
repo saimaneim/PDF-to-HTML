@@ -39,7 +39,7 @@ export default function CostapalmasEmail() {
 						/>
 
 						<Section className="bg-[#ede9df] w-[600px] px-[30px] py-10 mx-auto">
-							<img src="" alt="title_1" />
+							<img src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/title_1.png" alt="title_1" />
 
 							<div className="mb-4 w-[500px] mx-auto space-y-0 leading-tight text-left">
 								<Text className={textCommonStyles}>
