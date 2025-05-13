@@ -13,8 +13,10 @@ import {
 
 export default function CostapalmasEmail() {
 	// Estilos comunes extraídos para evitar repetición
-	const textCommonStyles = "text-left p-0 m-0 text-[17px] text-[#544534] font-['Basis_Grotesque_Pro_Regular',_Arial,_sans-serif]";
-	const titleStyles = "text-[#cc7449] font-serif tracking-[0.08em] font-medium text-center mx-auto";
+	const textCommonStyles =
+		"text-left p-0 m-0 text-[17px] text-[#544534] font-['Basis_Grotesque_Pro_Regular',_Arial,_sans-serif]";
+	const titleStyles =
+		"text-[#cc7449] font-serif tracking-[0.08em] font-medium text-center mx-auto";
 
 	return (
 		<Html lang="es">
@@ -22,24 +24,28 @@ export default function CostapalmasEmail() {
 				<title>Costa Palmas</title>
 			</Head>
 			<Tailwind>
-				<Body className="bg-white text-center font-sans w-[600px] p-0 m-0">
+				<Body className="bg-white text-center font-sans w-[600px] p-0 m-0 mx-auto">
 					<Container className="w-[600px] mx-auto">
-						<Section className="bg-[url('https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/Costa%20Palmas/assets/imgs/header.png')] bg-cover bg-center h-[296px] w-[600px] mx-auto py-10">
+						<Section className="bg-[url('https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/header.png')] bg-cover bg-center h-[296px] mx-auto py-10">
 							<Img
-								src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/Costa%20Palmas/assets/svg/header-icon.svg"
+								src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/header-icon.svg"
 								alt="Header Icon"
 								className="w-[280px] h-auto mx-auto my-[30px]"
 							/>
 						</Section>
 						{/* people */}
 						<Img
-							src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/Costa%20Palmas/assets/imgs/people.jpg"
+							src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/people.jpg"
 							alt="people"
-							className="w-[600px] h-[435px] block mx-auto object-cover"
+							className="w-auto h-[435px] block mx-auto object-cover"
 						/>
 
-						<Section className="bg-[#ede9df] w-[600px] px-[30px] py-10 mx-auto">
-							<img src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/title_1.png" alt="title_1" />
+						<Section className="bg-[#ede9df]  px-[30px] py-10 mx-auto">
+							<Img
+								src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/title_1.png"
+								alt="title_1"
+                className="py-10"
+							/>
 
 							<div className="mb-4 w-[500px] mx-auto space-y-0 leading-tight text-left">
 								<Text className={textCommonStyles}>
@@ -64,20 +70,16 @@ export default function CostapalmasEmail() {
 								<Text className={textCommonStyles}>
 									Cabo, you're invited to experience all that Costa Palmas has
 								</Text>
-								<Text className={textCommonStyles}>
-									to offer.
-								</Text>
+								<Text className={textCommonStyles}>to offer.</Text>
 							</div>
 
 							<div className="my-10 w-[500px] mx-auto space-y-0 leading-tight text-left">
 								<Text className={textCommonStyles}>
 									On behalf of your hosts, thank you for spending an evening
 								</Text>
-								<Text className={textCommonStyles}>
-									with us.
-								</Text>
+								<Text className={textCommonStyles}>with us.</Text>
 							</div>
-							
+
 							<div className="w-[500px] mx-auto space-y-4 whitespace-nowrap my-7">
 								<Text className="text-center my-0 text-[17px] leading-tight text-[#544534] font-medium font-['Basis_Grotesque_Pro_Regular',_Arial,_sans-serif]">
 									Michael Radovan -{" "}
@@ -115,20 +117,19 @@ export default function CostapalmasEmail() {
 								CLICK HERE FOR EVENT PHOTOS
 							</Button>
 						</Section>
-
+						{/* family */}
 						<Img
-							src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/Costa%20Palmas/assets/imgs/family.jpg"
+							src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/family.jpg"
 							alt="family"
-							className="w-[600px] h-[340px] block mx-auto object-cover"
+							className="w-full h-[340px] block mx-auto object-cover"
 						/>
 
-						<Section className="bg-[#ede9df] w-[600px] py-18 mx-auto">
-							<Text className={`w-[540px] text-[2.4rem] leading-[3rem] ${titleStyles} mt-5`}>
-								UPCOMING EVENTS
-							</Text>
-							<Text className={`w-[540px] text-[2.4rem] leading-[3rem] ${titleStyles} m-0 mb-5`}>
-								AT COSTA PALMAS
-							</Text>
+						<Section className="bg-[#ede9df] py-18">
+							<Img
+								src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/title_2.png"
+								alt="title_2"
+								className="py-10"
+							/>
 
 							<div className="my-10 w-[500px] mx-auto space-y-0 leading-tight">
 								<Text className={textCommonStyles}>
@@ -156,9 +157,7 @@ export default function CostapalmasEmail() {
 								<Text className={textCommonStyles}>
 									LA CARERRA GOLF & SOCIAL WEEKEND
 								</Text>
-								<Text className={textCommonStyles}>
-									November 6th to 9th.
-								</Text>
+								<Text className={textCommonStyles}>November 6th to 9th.</Text>
 								<Text className={textCommonStyles}>
 									This is one of Costa Palmas' most anticipated weekends,
 								</Text>
@@ -188,12 +187,12 @@ export default function CostapalmasEmail() {
 						</Section>
 
 						<Img
-							src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/Costa%20Palmas/assets/imgs/Palmas.webp"
+							src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/Palmas.webp"
 							alt="Palmas"
-							className="w-[600px] h-[250px] block mx-auto object-cover"
+							className="w-full h-[250px] block mx-auto object-cover"
 						/>
 
-						<Section className="w-[600px] h-[340px] font-['Prelom_Regular',_Arial,_sans-serif] text-white text-[1.4rem] relative bg-[linear-gradient(0deg,#f9f8f3_0%,#d0e1e6_41%,#b6cdd4_79%)] py-[40px] px-0 text-center">
+						<Section className=" h-[340px] font-['Prelom_Regular',_Arial,_sans-serif] text-white text-[1.4rem] relative bg-[linear-gradient(0deg,#f9f8f3_0%,#d0e1e6_41%,#b6cdd4_79%)] py-[40px] px-0 text-center">
 							<Link
 								href="https://www.instagram.com/costapalmas"
 								className="no-underline text-white text-[0.95rem] tracking-[0.08em] font-thin inline-block leading-[1.3]"
@@ -216,7 +215,7 @@ export default function CostapalmasEmail() {
 							</Link>
 							<div className="flex justify-center w-full mt-[30px]">
 								<Img
-									src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/Costa%20Palmas/assets/svg/footer-icon.svg"
+									src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/footer-icon.svg"
 									alt="Costa Palmas Icon"
 									className="w-[58px] h-[58px] mx-auto"
 								/>
