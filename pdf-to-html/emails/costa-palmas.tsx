@@ -24,16 +24,16 @@ export default function CostapalmasEmail() {
 			<Tailwind>
 				<Body className="bg-white text-center font-sans w-[600px] p-0 m-0">
 					<Container className="w-[600px] mx-auto">
-						<Section className="bg-[url('https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/Costa%20Palmas/assets/imgs/header.png')] bg-cover bg-center h-[296px] w-[600px] mx-auto py-10">
-							<Img
-								src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/Costa%20Palmas/assets/svg/header-icon.svg"
+						<Section className="bg-[url('https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/header.png')] bg-cover bg-center h-[296px] w-[600px] mx-auto py-10">
+							<img
+								src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/header-icon.svg"
 								alt="Header Icon"
 								className="w-[280px] h-auto mx-auto my-[30px]"
 							/>
 						</Section>
 						{/* people */}
 						<Img
-							src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/Costa%20Palmas/assets/imgs/people.jpg"
+							src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/people.jpg"
 							alt="people"
 							className="w-[600px] h-[435px] block mx-auto object-cover"
 						/>
@@ -117,7 +117,7 @@ export default function CostapalmasEmail() {
 						</Section>
 
 						<Img
-							src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/Costa%20Palmas/assets/imgs/family.jpg"
+							src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/family.jpg"
 							alt="family"
 							className="w-[600px] h-[340px] block mx-auto object-cover"
 						/>
@@ -188,7 +188,7 @@ export default function CostapalmasEmail() {
 						</Section>
 
 						<Img
-							src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/Costa%20Palmas/assets/imgs/Palmas.webp"
+							src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/Palmas.webp"
 							alt="Palmas"
 							className="w-[600px] h-[250px] block mx-auto object-cover"
 						/>
@@ -215,8 +215,8 @@ export default function CostapalmasEmail() {
 								COSTAPALMAS.COM
 							</Link>
 							<div className="flex justify-center w-full mt-[30px]">
-								<Img
-									src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/Costa%20Palmas/assets/svg/footer-icon.svg"
+								<img
+									src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/footer-icon.svg"
 									alt="Costa Palmas Icon"
 									className="w-[58px] h-[58px] mx-auto"
 								/>
