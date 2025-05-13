@@ -38,6 +38,7 @@ export default function CostapalmasEmail() {
 							className="bg-[url('https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/header.png')] bg-cover bg-center h-[296px] py-10"
 							style={{ width: "600px" }}
 						>
+							{/* header-icon */}
 							<Img
 								src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/header-icon.svg"
 								alt="Header Icon"
