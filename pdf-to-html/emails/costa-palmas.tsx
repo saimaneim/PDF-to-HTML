@@ -23,26 +23,6 @@ export default function CostapalmasEmail() {
 				<title>Costa Palmas</title>
 				<meta name="viewport" content="width=600, initial-scale=1.0" />
 				<meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
-				<Font
-					fontFamily="Basis Grotesque Pro"
-					fallbackFontFamily="Arial"
-					webFont={{
-						url: "https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/main/Costa%20Palmas/assets/fonts/BasisGrotesqueArabicPro-Regular.ttf",
-						format: "truetype"
-					}}
-					fontWeight={400}
-					fontStyle="normal"
-				/>
-				<Font
-					fontFamily="Prelom"
-					fallbackFontFamily="Arial"
-					webFont={{
-						url: "https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/main/Costa%20Palmas/assets/fonts/prelomregular.ttf",
-						format: "truetype"
-					}}
-					fontWeight={400}
-					fontStyle="normal"
-				/>
 			</Head>
 			<Tailwind>
 				<Body className="bg-white text-center font-sans p-0 m-0 mx-auto" style={{ width: '600px', WebkitTextSizeAdjust: '100%', textSizeAdjust: '100%' }}>
@@ -64,6 +44,7 @@ export default function CostapalmasEmail() {
 						/>
 
 						<Section className="bg-[#ede9df] py-10" style={{ width: '600px' }}>
+							{/* title-1 */}
 							<Img
 								src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/title_1.png"
 								alt="title_1"
@@ -86,13 +67,13 @@ export default function CostapalmasEmail() {
 								<Text className={textCommonStyles}>
 									Now that you've heard all about our mountain, desert and
 								</Text>
-								<Text className={textCommonStyles}>
+								<Text className={`${textCommonStyles} whitespace-nowrap`}>
 									sea escape on the East Cape of Baja Mexico, you'll want to
 								</Text>
 								<Text className={textCommonStyles}>
 									experience it firsthand. Next time you're planning a trip to
 								</Text>
-								<Text className={textCommonStyles}>
+								<Text className={`${textCommonStyles} whitespace-nowrap`}>
 									Cabo, you're invited to experience all that Costa Palmas has
 								</Text>
 								<Text className={textCommonStyles}>to offer.</Text>
