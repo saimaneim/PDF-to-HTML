@@ -8,6 +8,7 @@ import {
 	Link,
 	Img,
 	Tailwind,
+	Font,
 } from "@react-email/components";
 
 export default function CostapalmasEmail() {
@@ -21,6 +22,26 @@ export default function CostapalmasEmail() {
 				<title>Costa Palmas</title>
 				<meta name="viewport" content="width=600, initial-scale=1.0" />
 				<meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
+				<Font
+					fontFamily="Basis Grotesque Pro Light"
+					fallbackFontFamily="Arial"
+					webFont={{
+						url: "https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/main/Costa%20Palmas/assets/fonts/BasisGrotesqueArabicPro-Light.ttf",
+						format: "truetype",
+					}}
+					fontWeight={300}
+					fontStyle="normal"
+				/>
+				<Font
+					fontFamily="Prelom"
+					fallbackFontFamily="Arial"
+					webFont={{
+						url: "https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/main/Costa%20Palmas/assets/fonts/prelomregular.ttf",
+						format: "truetype",
+					}}
+					fontWeight={400}
+					fontStyle="normal"
+				/>
 			</Head>
 			<Tailwind>
 				<Body
@@ -62,37 +83,37 @@ export default function CostapalmasEmail() {
 								style={{ width: "600px" }}
 							/>
 
-							<div className="mb-4 px-20 mx-auto space-y-0 leading-tight text-left">
-								<Text className={textCommonStyles}>
+							<div className="mb-4 mx-auto space-y-0 leading-tight text-left">
+								<Text className={`${textCommonStyles} px-16`}>
 									Thank you for joining us at The Mexican as we brought a
 								</Text>
-								<Text className={textCommonStyles}>
+								<Text className={`${textCommonStyles} px-16`}>
 									taste of Costa Palmas to the heart of Dallas. We hope you
 									enjoyed the vibrant flavors of Baja throughout the evening.
 								</Text>
 							</div>
 
-							<div className="mb-4 px-20 mx-auto space-y-0 leading-tight">
-								<Text className={textCommonStyles}>
+							<div className="mb-4 mx-auto space-y-0 leading-tight">
+								<Text className={`${textCommonStyles} px-16`}>
 									Now that you've heard all about our mountain, desert and
 								</Text>
-								<Text className={`${textCommonStyles} whitespace-nowrap`}>
+								<Text className={`${textCommonStyles} whitespace-nowrap px-16`}>
 									sea escape on the East Cape of Baja Mexico, you'll want to
 								</Text>
-								<Text className={textCommonStyles}>
+								<Text className={`${textCommonStyles} px-16`}>
 									experience it firsthand. Next time you're planning a trip to
 								</Text>
-								<Text className={`${textCommonStyles} whitespace-nowrap`}>
+								<Text className={`${textCommonStyles} whitespace-nowrap px-16`}>
 									Cabo, you're invited to experience all that Costa Palmas has
 								</Text>
-								<Text className={textCommonStyles}>to offer.</Text>
+								<Text className={`${textCommonStyles} px-16`}>to offer.</Text>
 							</div>
 
-							<div className="my-10 px-20 mx-auto space-y-0 leading-tight text-left">
-								<Text className={textCommonStyles}>
+							<div className="my-10 mx-auto space-y-0 leading-tight text-left">
+								<Text className={`${textCommonStyles} px-16`}>
 									On behalf of your hosts, thank you for spending an evening
 								</Text>
-								<Text className={textCommonStyles}>with us.</Text>
+								<Text className={`${textCommonStyles} px-16`}>with us.</Text>
 							</div>
 
 							<div className="px-20 mx-auto space-y-4 whitespace-nowrap my-7">
@@ -126,9 +147,10 @@ export default function CostapalmasEmail() {
 							</div>
 
 							<Link href="https://costapalmasmemories.pic-time.com/-costapalmasindallas1">
+							{/* button */}
 								<Img
 									src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/button.png"
-									className="mx-auto"
+									className="mx-auto py-10"
 									alt="CLICK HERE FOR EVENT PHOTOS"
 								/>
 							</Link>
@@ -148,18 +170,20 @@ export default function CostapalmasEmail() {
 								className="pb-3 pt-16 mx-auto w-[600px] max-w-[600px] mobile-content"
 							/>
 
-							<div className="py-14 px-20 mx-auto space-y-0 leading-tight">
-								<Text className={textCommonStyles}>
+							<div className="py-14 mx-auto space-y-0 leading-tight">
+								<Text className={`${textCommonStyles} px-16`}>
 									YACHT RENDEZVOUS - June 20th to 22nd.
 								</Text>
-								<Text className={textCommonStyles}>
+								<Text className={`${textCommonStyles} px-16`}>
 									Save the date for our Yacht Rendezvous weekend from
 								</Text>
-								<Text className={textCommonStyles}>
+								<Text className={`${textCommonStyles} whitespace-nowrap px-16`}>
 									Friday to Sunday. Three days of sun- soaked adventure and
+								</Text>
+								<Text className={`${textCommonStyles} whitespace-nowrap px-16`}>
 									barefoot luxury on land and sea. You can view the weekend's
 								</Text>
-								<Text className={textCommonStyles}>
+								<Text className={`${textCommonStyles} px-16`}>
 									itinerary and details by{" "}
 									<Link
 										href="https://costapalmasyachtclub.com/rendezvous"
@@ -169,29 +193,30 @@ export default function CostapalmasEmail() {
 									</Link>
 								</Text>
 							</div>
-
-							<div className="px-20 mx-auto space-y-0 leading-tight pb-16">
-								<Text className={textCommonStyles}>
+							<div className="mx-auto space-y-0 leading-tight pb-16">
+								<Text className={`${textCommonStyles} px-16`}>
 									LA CARERRA GOLF & SOCIAL WEEKEND
 								</Text>
-								<Text className={textCommonStyles}>November 6th to 9th.</Text>
-								<Text className={textCommonStyles}>
+								<Text className={`${textCommonStyles} px-16`}>
+									November 6th to 9th.
+								</Text>
+								<Text className={`${textCommonStyles} px-16`}>
 									This is one of Costa Palmas' most anticipated weekends,
 								</Text>
-								<Text className={textCommonStyles}>
+								<Text className={`${textCommonStyles} px-16`}>
 									blending competitive golf with unforgettable social
 								</Text>
-								<Text className={textCommonStyles}>
+								<Text className={`${textCommonStyles} px-16`}>
 									experiences. The weekend includes thrilling rounds on the
 								</Text>
-								<Text className={textCommonStyles}>
+								<Text className={`${textCommonStyles} px-16`}>
 									Robert Trent Jones II golf course, vibrant evenings at the
 								</Text>
-								<Text className={textCommonStyles}>
+								<Text className={`${textCommonStyles} whitespace-nowrap px-16`}>
 									Marina Village, and a festive mix of fine dining, cocktails,
 									and
 								</Text>
-								<Text className={textCommonStyles}>
+								<Text className={`${textCommonStyles} px-16`}>
 									entertainment.{" "}
 									<Link
 										href="https://costapalmas.com/media-gallery/"
