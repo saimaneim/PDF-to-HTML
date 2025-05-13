@@ -227,26 +227,26 @@ export default function CostapalmasEmail() {
 						<Section className=" h-[340px] font-['Basis-Grotesque-Pro-Light',_Arial,_sans-serif] text-white text-[1.4rem] relative bg-[linear-gradient(0deg,#f9f8f3_0%,#d0e1e6_41%,#b6cdd4_79%)] py-[40px] px-0 text-center w-[600px] max-w-[600px] mobile-content">
 							<Link
 								href="https://www.instagram.com/costapalmas"
-								className="no-underline text-white text-[0.95rem] tracking-[0.08em] font-normal inline-block leading-[1.3] font-['Basis_Grotesque_Pro_Light',_Arial,_sans-serif]"
+								className="no-underline text-white text-[0.95rem] tracking-[0.08em] font-normal inline-block leading-[1.3] font-['Basis_Grotesque_Pro_Light',_Arial,_sans-serif] mb-4"
 							>
 								<Img
 									src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/text_footer_1.png"
 									alt="Instagram"
-									className="w-full h-[20px] inline-block"
+									className="h-[20px] inline-block"
 								/>
 							</Link>
-							<br />
+							<div className="h-0.5" />
 							<Link
 								href="mailto:INFO@COSTAPALMAS.COM"
-								className="no-underline text-white text-[0.95rem] tracking-[0.08em] font-normal inline-block leading-[1.3] font-['Basis_Grotesque_Pro_Light',_Arial,_sans-serif]"
+								className="no-underline text-white text-[0.95rem] tracking-[0.08em] font-normal inline-block leading-[1.3] font-['Basis_Grotesque_Pro_Light',_Arial,_sans-serif] mb-4"
 							>
 								<Img
 									src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/text_footer_2.png"
 									alt="Email"
-									className="w-full h-[16px] inline-block"
+									className="h-[16px] inline-block"
 								/>
 							</Link>
-							<br />
+							<div className="h-0.5" />
 							<Link
 								href="https://costapalmas.com/"
 								className="no-underline text-white text-[0.95rem] tracking-[0.08em] font-normal inline-block leading-[1.3] font-['Basis_Grotesque_Pro_Light',_Arial,_sans-serif]"
@@ -254,7 +254,7 @@ export default function CostapalmasEmail() {
 								<Img
 									src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/text_footer_3.png"
 									alt="Website"
-									className="w-full h-[16px] inline-block"
+									className="h-[16px] inline-block"
 								/>
 							</Link>
 							<div className="flex justify-center w-full mt-[30px]">
