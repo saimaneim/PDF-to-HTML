@@ -232,7 +232,7 @@ export default function CostapalmasEmail() {
 								<Img
 									src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/text_footer_1.png"
 									alt="Instagram"
-									className="h-[20px] inline-block"
+									className="h-[16px] inline-block"
 								/>
 							</Link>
 							<div className="h-0.5" />
@@ -254,7 +254,7 @@ export default function CostapalmasEmail() {
 								<Img
 									src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/text_footer_3.png"
 									alt="Website"
-									className="h-[16px] inline-block"
+									className="h-[13px] inline-block"
 								/>
 							</Link>
 							<div className="flex justify-center w-full mt-[30px]">
