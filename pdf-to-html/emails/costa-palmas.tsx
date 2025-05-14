@@ -14,7 +14,7 @@ import {
 export default function CostapalmasEmail() {
 	// Estilos comunes extraídos para evitar repetición
 	const textCommonStyles =
-		"text-left p-0 m-0 text-[17px] text-[#544534] font-[_Arial,_sans-serif]";
+		"text-left p-0 m-0 text-[17px] text-[#544534] font-['Basis_Grotesque_Pro',_Arial,_sans-serif]";
 
 	return (
 		<Html lang="es">
@@ -23,11 +23,11 @@ export default function CostapalmasEmail() {
 				<meta name="viewport" content="width=600, initial-scale=1.0" />
 				<meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
 				<Font
-					fontFamily="Basis Grotesque Pro Light"
+					fontFamily="Basis Grotesque Pro"
 					fallbackFontFamily="Arial"
 					webFont={{
-						url: "https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/fonts/BasisGrotesqueArabicPro-Light.ttf",
-						format: "truetype",
+						url: "https://db.onlinewebfonts.com/t/fb3ddfb68f7942d3a38bb6b63f96ac89.woff2",
+						format: "woff2",
 					}}
 					fontWeight={300}
 					fontStyle="normal"
@@ -40,19 +40,14 @@ export default function CostapalmasEmail() {
 						width: "600px",
 						WebkitTextSizeAdjust: "100%",
 						textSizeAdjust: "100%",
+						fontFamily: "'Basis Grotesque Pro', Arial, sans-serif",
 					}}
 				>
 					<Container style={{ padding: 0, width: "600px", minWidth: "600px" }}>
 						<Section
 							className="bg-[url('https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/header.png')] bg-cover bg-center h-[245px] py-10"
-							style={{ width: "600px" }}
+							style={{ width: "600px", height: "100%" }}
 						>
-							{/* header-icon */}
-							<Img
-								src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/header-icon.png"
-								alt="Header Icon"
-								className="w-[280px] h-auto mx-auto my-[30px]"
-							/>
 						</Section>
 						{/* people */}
 						<Img
@@ -71,7 +66,7 @@ export default function CostapalmasEmail() {
 								className="py-10 pb-12  mx-auto w-[600px]"
 							/>
 
-							<div className="mb-4 mx-auto space-y-0 leading-tight text-left">
+							<div className="mb-6 mx-auto space-y-0 leading-tight text-left">
 								<Text className={`${textCommonStyles} px-16`}>
 									Thank you for joining us at The Mexican as we brought a
 								</Text>
@@ -81,7 +76,7 @@ export default function CostapalmasEmail() {
 								</Text>
 							</div>
 
-							<div className="mb-4 mx-auto space-y-0 leading-tight">
+							<div className="mb-6 mx-auto space-y-0 leading-tight">
 								<Text className={`${textCommonStyles} px-16`}>
 									Now that you've heard all about our mountain, desert and
 								</Text>
@@ -97,37 +92,37 @@ export default function CostapalmasEmail() {
 								<Text className={`${textCommonStyles} px-16`}>to offer.</Text>
 							</div>
 
-							<div className="my-10 mx-auto space-y-0 leading-tight text-left">
+							<div className="mb-10 mx-auto space-y-0 leading-tight text-left">
 								<Text className={`${textCommonStyles} px-16`}>
 									On behalf of your hosts, thank you for spending an evening
 								</Text>
 								<Text className={`${textCommonStyles} px-16`}>with us.</Text>
 							</div>
 
-							<div className="px-20 mx-auto space-y-4 whitespace-nowrap my-7">
-								<Text className="text-center my-0 text-[17px] leading-tight text-[#544534] font-[_Arial,_sans-serif]">
+							<div className="px-20 mx-auto whitespace-nowrap my-6">
+								<Text className="text-center my-1 text-[17px] leading-tight text-[#544534] font-['Basis_Grotesque_Pro',_Arial,_sans-serif]">
 									Michael Radovan -{" "}
 									<Link
 										href="mailto:mradovan@costapalmas.com"
-										className="text-[#544534] font-[_Arial,_sans-serif] no-underline"
+										className="text-[#544534] font-['Basis_Grotesque_Pro',_Arial,_sans-serif] no-underline"
 									>
 										mradovan@costapalmas.com
 									</Link>
 								</Text>
-								<Text className="text-center my-0 text-[17px] leading-tight text-[#544534] font-[_Arial,_sans-serif]">
+								<Text className="text-center my-1 text-[17px] leading-tight text-[#544534] font-['Basis_Grotesque_Pro',_Arial,_sans-serif]">
 									Rachael Thornquist -{" "}
 									<Link
 										href="mailto:rthornquist@costapalmas.com"
-										className="text-[#544534] no-underline font-[_Arial,_sans-serif]"
+										className="text-[#544534] no-underline font-['Basis_Grotesque_Pro',_Arial,_sans-serif]"
 									>
 										rthornquist@costapalmas.com
 									</Link>
 								</Text>
-								<Text className="text-center my-0 text-[17px] leading-tight text-[#544534] font-[_Arial,_sans-serif]">
+								<Text className="text-center my-1 text-[17px] leading-tight text-[#544534] font-['Basis_Grotesque_Pro',_Arial,_sans-serif]">
 									Wilder Denholm -{" "}
 									<Link
 										href="mailto:wdenholm@costapalmas.com"
-										className="text-[#544534] font-[_Arial,_sans-serif] no-underline"
+										className="text-[#544534] font-['Basis_Grotesque_Pro',_Arial,_sans-serif] no-underline"
 									>
 										wdenholm@costapalmas.com
 									</Link>
@@ -158,7 +153,7 @@ export default function CostapalmasEmail() {
 								className="pb-3 pt-20 mx-auto w-[600px]"
 							/>
 
-							<div className="py-14 mx-auto space-y-0 leading-tight">
+							<div className="py-14 mx-auto space-y-0 leading-normal">
 								<Text className={`${textCommonStyles} px-16`}>
 									YACHT RENDEZVOUS - June 20th to 22nd.
 								</Text>
@@ -175,13 +170,13 @@ export default function CostapalmasEmail() {
 									itinerary and details by{" "}
 									<Link
 										href="https://costapalmasyachtclub.com/rendezvous"
-										className="text-[#cc7449] underline font-[_Arial,_sans-serif]"
+										className="text-[#cc7449] underline font-['Basis_Grotesque_Pro',_Arial,_sans-serif]"
 									>
 										visiting our event website.
 									</Link>
 								</Text>
 							</div>
-							<div className="mx-auto space-y-0 leading-tight pb-16">
+							<div className="mx-auto space-y-0 leading-normal pb-16">
 								<Text className={`${textCommonStyles} px-16`}>
 									LA CARERRA GOLF & SOCIAL WEEKEND
 								</Text>
@@ -208,7 +203,7 @@ export default function CostapalmasEmail() {
 									entertainment.{" "}
 									<Link
 										href="https://costapalmas.com/media-gallery/"
-										className="text-[#cc7449] underline font-[_Arial,_sans-serif]"
+										className="text-[#cc7449] underline font-['Basis_Grotesque_Pro',_Arial,_sans-serif]"
 									>
 										Click here for a preview of last years event.
 									</Link>
