@@ -44,11 +44,12 @@ export default function CostapalmasEmail() {
 					}}
 				>
 					<Container style={{ padding: 0, width: "600px", minWidth: "600px" }}>
-						<Section
-							className="bg-[url('https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/header.png')] bg-cover bg-center h-[245px] py-10"
+						<Img
+							src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/header.png"
+							alt="Header"
+							className="bg-contain bg-center"
 							style={{ width: "600px", height: "100%" }}
-						>
-						</Section>
+						/>
 						{/* people */}
 						<Img
 							src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/people.jpg"
