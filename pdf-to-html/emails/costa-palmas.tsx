@@ -44,7 +44,7 @@ export default function CostapalmasEmail() {
 				>
 					<Container style={{ padding: 0, width: "600px", minWidth: "600px" }}>
 						<Section
-							className="bg-[url('https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/header.png')] bg-cover bg-center h-[296px] py-10"
+							className="bg-[url('https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/header.png')] bg-cover bg-center h-[245px] py-10"
 							style={{ width: "600px" }}
 						>
 							{/* header-icon */}
@@ -68,7 +68,7 @@ export default function CostapalmasEmail() {
 							<Img
 								src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/title_1.png"
 								alt="title_1"
-								className="py-10  mx-auto w-[600px]"
+								className="py-10 pb-12  mx-auto w-[600px]"
 							/>
 
 							<div className="mb-4 mx-auto space-y-0 leading-tight text-left">
@@ -155,7 +155,7 @@ export default function CostapalmasEmail() {
 							<Img
 								src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/title_2.png"
 								alt="title_2"
-								className="pb-3 pt-16 mx-auto w-[600px]"
+								className="pb-3 pt-20 mx-auto w-[600px]"
 							/>
 
 							<div className="py-14 mx-auto space-y-0 leading-tight">
@@ -219,7 +219,7 @@ export default function CostapalmasEmail() {
 						<Img
 							src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/Palmas.webp"
 							alt="Palmas"
-							className="h-[360px] block mx-auto object-cover w-[600px] max-w-[600px] mobile-content"
+							className="h-[360px] mx-auto block object-cover object-[10%_0%] w-[600px] max-w-[600px] mobile-content"
 						/>
 
 						<Section className=" h-[340px] font-['Basis-Grotesque-Pro-Light',_Arial,_sans-serif] text-white text-[1.4rem] relative bg-[linear-gradient(0deg,#f9f8f3_0%,#d0e1e6_41%,#b6cdd4_79%)] py-[40px] px-0 text-center w-[600px] max-w-[600px] mobile-content">
