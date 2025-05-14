@@ -252,14 +252,14 @@ export default function CostapalmasEmail() {
 								<Img
 									src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/text_footer_3.png"
 									alt="Website"
-									className="h-[13px] inline-block"
+									className="h-[16px] inline-block"
 								/>
 							</Link>
 							<div className="flex justify-center w-full mt-[30px]">
 								<Img
 									src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/footer-icon.png"
 									alt="Costa Palmas Icon"
-									className="w-[58px] h-[58px] mx-auto"
+									className="w-[600px] h-[58px] mx-auto"
 								/>
 							</div>
 						</Section>
