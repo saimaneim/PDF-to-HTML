@@ -22,16 +22,24 @@ export default function CostapalmasEmail() {
 				<title>Costa Palmas</title>
 				<meta name="viewport" content="width=600, initial-scale=1.0" />
 				<meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
-				<Font
-					fontFamily="Basis Grotesque Pro"
-					fallbackFontFamily="Arial"
-					webFont={{
-						url: "https://db.onlinewebfonts.com/t/fb3ddfb68f7942d3a38bb6b63f96ac89.woff2",
-						format: "woff2",
-					}}
-					fontWeight={300}
-					fontStyle="normal"
-				/>
+				<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+				<meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
+				<style>
+					{`
+						@media only screen {
+							@font-face {
+								font-family: 'Basis Grotesque Pro';
+								font-style: normal;
+								font-weight: 300;
+								src: url(https://db.onlinewebfonts.com/t/fb3ddfb68f7942d3a38bb6b63f96ac89.woff2) format('woff2');
+								font-display: swap;
+							}
+							* {
+								font-family: 'Basis Grotesque Pro', Arial, sans-serif;
+							}
+						}
+					`}
+				</style>
 			</Head>
 			<Tailwind>
 				<Body
@@ -48,7 +56,7 @@ export default function CostapalmasEmail() {
 							src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/header.png"
 							alt="Header"
 							className="bg-contain bg-center"
-							style={{ width: "600px", height: "100%" }}
+							style={{ width: "600px"}}
 						/>
 						{/* people */}
 						<Img
@@ -59,7 +67,7 @@ export default function CostapalmasEmail() {
 							style={{ width: "600px" }}
 						/>
 
-						<Section className="bg-[#ede9df] py-10" style={{ width: "600px" }}>
+						<Section className="bg-[#ECE8DF] py-10" style={{ width: "600px" }}>
 							{/* title-1 */}
 							<Img
 								src="https://raw.githubusercontent.com/saimaneim/PDF-to-HTML/refs/heads/main/pdf-to-html/static/title_1.png"
@@ -218,7 +226,21 @@ export default function CostapalmasEmail() {
 							className="h-[360px] mx-auto block object-cover object-[10%_0%] w-[600px] max-w-[600px] mobile-content"
 						/>
 
-						<Section className=" h-[340px] font-['Basis-Grotesque-Pro-Light',_Arial,_sans-serif] text-white text-[1.4rem] relative bg-[linear-gradient(0deg,#f9f8f3_0%,#d0e1e6_41%,#b6cdd4_79%)] py-[40px] px-0 text-center w-[600px] max-w-[600px] mobile-content">
+						<Section 
+							style={{
+								height: "340px",
+								fontFamily: "'Basis-Grotesque-Pro-Light', Arial, sans-serif",
+								color: "white",
+								fontSize: "1.4rem",
+								position: "relative",
+								background: "linear-gradient(0deg, #f9f8f3 0%, #d0e1e6 41%, #b6cdd4 79%)",
+								padding: "40px 0",
+								textAlign: "center",
+								width: "600px",
+								maxWidth: "600px"
+							}}
+							className="mobile-content"
+						>
 							<Link
 								href="https://www.instagram.com/costapalmas"
 								className="no-underline text-white text-[0.95rem] tracking-[0.08em] font-normal inline-block leading-[1.3] font-['Basis_Grotesque_Pro_Light',_Arial,_sans-serif] mb-4"
